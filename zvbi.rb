@@ -11,6 +11,7 @@ class Zvbi < Formula
   # def patches
     # DATA
   # end
+  patch :DATA
 
   def install
     system "./configure", "--disable-dependency-tracking",
