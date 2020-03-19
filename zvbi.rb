@@ -8,9 +8,9 @@ class Zvbi < Formula
   # two of the unit tests fail on Mac OS - see
   # http://sourceforge.net/p/zapping/bugs/197/ - so remove them until
   # fixed so that we can run the rest of the tests
-  def patches
-    DATA
-  end
+  # def patches
+    # DATA
+  # end
 
   def install
     system "./configure", "--disable-dependency-tracking",
